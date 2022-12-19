@@ -72,7 +72,6 @@ void setup() {
 
 }
 
-//Task1code: blinks an LED every 1000 ms
 void Task1code( void * pvParameters ) {
   Serial.print("Task1 running on core ");
   Serial.println(xPortGetCoreID());
@@ -98,7 +97,6 @@ void Task1code( void * pvParameters ) {
   }
 }
 
-//Task2code: blinks an LED every 700 ms
 void Task2code( void * pvParameters ) {
   Serial.print("Task2 running on core ");
   Serial.println(xPortGetCoreID());
